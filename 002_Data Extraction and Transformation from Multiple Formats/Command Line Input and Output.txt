@@ -1,0 +1,37 @@
+Microsoft Windows [Version 10.0.22631.4460]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\shali> pip install pandas
+
+C:\Users\shali> pip install openpyxl
+
+C:\Users\shali> cd "C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\002_Data Extraction and Transformation from Multiple Formats"
+
+C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\002_Data Extraction and Transformation from Multiple Formats> python unify_plate_data.py --input_dir . --output_file unified_plate_data.csv --dry_run
+Processed file: mock_plate_1.xlsx
+Processed file: mock_plate_2.xlsx
+Processed file: mock_plate_3.csv
+Processed file: mock_plate_4.csv
+Processed file: mock_plate_5.txt
+Processed file: mock_plate_6.txt
+Skipping unsupported file: unify_plate_data.py
+
+[DRY RUN] Combined Data Preview:
+       Plate_ID Well_ID  Luminescence
+0  mock_plate_1      A1    386.848695
+1  mock_plate_1      A2   4425.785961
+2  mock_plate_1      A3   1843.617015
+3  mock_plate_1      A4   2786.521948
+4  mock_plate_1      A5   1938.216982
+
+[DRY RUN] Total Rows: 2304
+
+C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\002_Data Extraction and Transformation from Multiple Formats> python unify_plate_data.py --input_dir . --output_file unified_plate_data.csv
+Processed file: mock_plate_1.xlsx
+Processed file: mock_plate_2.xlsx
+Processed file: mock_plate_3.csv
+Processed file: mock_plate_4.csv
+Processed file: mock_plate_5.txt
+Processed file: mock_plate_6.txt
+Skipping unsupported file: unify_plate_data.py
+Unified data saved to: unified_plate_data.csv
