@@ -1,0 +1,5 @@
+original_name,new_name
+image_001.tif,plate1_wellA1_control.tif
+image_002.tif,plate1_wellA2_treatment1.tif
+image_003.tif,plate1_wellA3_control.tif
+image_004.tif,plate1_wellA4_treatment2.tif

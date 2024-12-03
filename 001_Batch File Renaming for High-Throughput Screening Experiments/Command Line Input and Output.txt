@@ -1,0 +1,16 @@
+Microsoft Windows [Version 10.0.22631.4460]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\shali> cd "C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\001_Batch File Renaming for High-Throughput Screening Experiments"
+
+C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\001_Batch File Renaming for High-Throughput Screening Experiments> python batch_rename.py --csv_file "C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\001_Batch File Renaming for High-Throughput Screening Experiments\file_mapping.csv" --directory . --dry_run
+[DRY RUN] Would rename: image_001.tif -> plate1_wellA1_control.tif
+[DRY RUN] Would rename: image_002.tif -> plate1_wellA2_treatment1.tif
+[DRY RUN] Would rename: image_003.tif -> plate1_wellA3_control.tif
+[DRY RUN] Would rename: image_004.tif -> plate1_wellA4_treatment2.tif
+
+C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\001_Batch File Renaming for High-Throughput Screening Experiments> python batch_rename.py --csv_file "C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\001_Batch File Renaming for High-Throughput Screening Experiments\file_mapping.csv" --directory .
+Renamed: image_001.tif -> plate1_wellA1_control.tif
+Renamed: image_002.tif -> plate1_wellA2_treatment1.tif
+Renamed: image_003.tif -> plate1_wellA3_control.tif
+Renamed: image_004.tif -> plate1_wellA4_treatment2.tif
