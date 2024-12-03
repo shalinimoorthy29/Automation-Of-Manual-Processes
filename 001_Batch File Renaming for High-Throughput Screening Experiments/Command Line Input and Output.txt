@@ -1,6 +1,8 @@
 Microsoft Windows [Version 10.0.22631.4460]
 (c) Microsoft Corporation. All rights reserved.
 
+C:\Users\shali> pip install pandas
+
 C:\Users\shali> cd "C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\001_Batch File Renaming for High-Throughput Screening Experiments"
 
 C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\001_Batch File Renaming for High-Throughput Screening Experiments> python batch_rename.py --csv_file "C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\001_Batch File Renaming for High-Throughput Screening Experiments\file_mapping.csv" --directory . --dry_run
