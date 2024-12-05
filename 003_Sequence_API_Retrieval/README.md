@@ -4,7 +4,7 @@
 
 ## Objective
 
-The goal of this project is to automate the retrieval of nucleotide sequences from the NCBI Entrez database using the Biopython library. The sequences are retrieved using a list of gene accession IDs, which are then saved as FASTA files for further analysis.
+The goal of this project is to automate the retrieval of nucleotide sequences from the **NCBI Entrez API** using the **Biopython** library. This project demonstrates how to interact with an existing public API to fetch sequences using a list of gene accession IDs. These sequences are then saved as **FASTA files** for further bioinformatics analysis. Additionally, the project uses a **virtual environment** to manage dependencies, ensuring that the required libraries, such as **Biopython** and **numpy**, are installed and isolated from the global Python environment.
 
 ---
 
