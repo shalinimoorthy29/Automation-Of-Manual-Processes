@@ -47,7 +47,7 @@ The following genes and their respective accession IDs were used in this project
 ## Steps to Obtain FASTA Sequences via the Biopython API
 
 1. **Set Up the Environment**:
-   - Install **Python 3.10** or higher.
+   - Install **Python 3.10** (compatible for biopython installation).
    - Set up a virtual environment using `venv`.
    - Install the required libraries, such as **Biopython** and **numpy**, using:
      ```bash
