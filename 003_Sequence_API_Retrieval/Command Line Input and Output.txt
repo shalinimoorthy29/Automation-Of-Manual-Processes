@@ -1,0 +1,56 @@
+Microsoft Windows [Version 10.0.22631.4460]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\shali> py -3.10 --version
+Python 3.10.11
+
+C:\Users\shali> cd "C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\003_Sequence_API_Retrieval"
+
+C:\Users\shali> cd "C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\003_Sequence_API_Retrieval> py -3.10 -m venv venv
+
+C:\Users\shali> cd "C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\003_Sequence_API_Retrieval> venv\Scripts\activate
+
+(venv) C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\003_Sequence_API_Retrieval>
+
+(venv) C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\003_Sequence_API_Retrieval> pip install biopython numpy
+Collecting biopython
+  Downloading biopython-1.84-cp310-cp310-win_amd64.whl.metadata (13 kB)
+Collecting numpy
+  Downloading numpy-2.1.3-cp310-cp310-win_amd64.whl.metadata (60 kB)
+Downloading biopython-1.84-cp310-cp310-win_amd64.whl (2.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.8/2.8 MB 6.5 MB/s eta 0:00:00
+Downloading numpy-2.1.3-cp310-cp310-win_amd64.whl (12.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.9/12.9 MB 8.0 MB/s eta 0:00:00
+Installing collected packages: numpy, biopython
+Successfully installed biopython-1.84 numpy-2.1.3
+
+(venv) C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\003_Sequence_API_Retrieval> python test_biopython.py
+Biopython is installed and ready to use!
+
+(venv) C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\003_Sequence_API_Retrieval> python retrieve_sequences.py --dry_run
+[DRY RUN] Would fetch and save sequence for NM_007294 as NM_007294.fasta
+[DRY RUN] Would fetch and save sequence for NM_001126112 as NM_001126112.fasta
+[DRY RUN] Would fetch and save sequence for NM_005228 as NM_005228.fasta
+[DRY RUN] Would fetch and save sequence for NM_002467 as NM_002467.fasta
+[DRY RUN] Would fetch and save sequence for NM_000492 as NM_000492.fasta
+[DRY RUN] Would fetch and save sequence for NM_002024 as NM_002024.fasta
+[DRY RUN] Would fetch and save sequence for NM_001101 as NM_001101.fasta
+[DRY RUN] Would fetch and save sequence for NM_000518 as NM_000518.fasta
+[DRY RUN] Would fetch and save sequence for NM_001289746 as NM_001289746.fasta
+[DRY RUN] Would fetch and save sequence for NM_001302688 as NM_001302688.fasta
+
+(venv) C:\Users\shali\Documents\L&D\GitHub Projects\Automation and Batch Processing\003_Sequence_API_Retrieval> python retrieve_sequences.py
+Sequence for NM_007294 saved to sequences\NM_007294.fasta
+Sequence for NM_001126112 saved to sequences\NM_001126112.fasta
+Sequence for NM_005228 saved to sequences\NM_005228.fasta
+Sequence for NM_002467 saved to sequences\NM_002467.fasta
+Sequence for NM_000492 saved to sequences\NM_000492.fasta
+Sequence for NM_002024 saved to sequences\NM_002024.fasta
+Sequence for NM_001101 saved to sequences\NM_001101.fasta
+Sequence for NM_000518 saved to sequences\NM_000518.fasta
+Sequence for NM_001289746 saved to sequences\NM_001289746.fasta
+Sequence for NM_001302688 saved to sequences\NM_001302688.fasta
+
+
+
+
